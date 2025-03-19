@@ -1,8 +1,8 @@
-import.java.util.*;
+import java.util.Scanner;
 
 public class bits{
     public static void main(String[] args){
-        Scanner s = new Scanner(system.in);
+        Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int pos = s.nextInt();
         int bitmask = 1 << pos;
